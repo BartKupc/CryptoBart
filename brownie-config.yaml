@@ -1,0 +1,22 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@5.1.0  # Ensure you have the correct version
+
+compiler:
+  solc:
+    version: "0.8.28"
+    optimizer:
+      enabled: true
+      runs: 200
+
+sources:
+  - ./contracts
+  - ./node_modules/@openzeppelin/contracts
+
+networks:
+    default: mainnet-quicknode
+    mainnet-quicknode:
+        host: https://capable-falling-gadget.quiknode.pro/9cc845210bc482e6a378d6a9e78717339f4bb75b
+        gas_price: auto
+        verify: True
+wallets:
+    from_key: ${PRIVATE_KEY}

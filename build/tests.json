@@ -1,0 +1,23 @@
+{
+  "contracts": {
+    "DodoCoin": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "tests": {
+    "tests/test_dodocoin.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".........",
+      "sha1": "ff26dd47373101336ad79f1b345a57d74fbaa66e",
+      "txhash": [
+        "40ad4880f9715f8f697cbc2865735351004b29e1",
+        "a5c37ca4a1bf6a69ac91730acaf813661041ba52",
+        "a5ed574bc13a3ca6e28c75fa2bd464db2bddd651"
+      ]
+    }
+  },
+  "tx": {
+    "40ad4880f9715f8f697cbc2865735351004b29e1": {},
+    "a5c37ca4a1bf6a69ac91730acaf813661041ba52": {},
+    "a5ed574bc13a3ca6e28c75fa2bd464db2bddd651": {}
+  }
+}
